@@ -1,0 +1,99 @@
+.header {
+  background-image: url(../img/header.jpg);
+  background-color: rgba(0, 0, 0, .7);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 150px;
+  text-align: center;
+
+  @media all and (max-width: 320px) {
+    padding-bottom: 0;
+  }
+  @media all and (max-width: 768px){
+    padding-bottom: 40px;
+  }
+  @media all and (max-width: 1024px){
+    padding-bottom: 30px;
+  }
+
+  h1 {
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 115px;
+    font-size: 60px;
+    color: #ffffff;
+
+    @media all and (max-width: 320px) {
+      padding: 30px 15px;
+      font-size: 30px;
+    }
+  }
+
+  .row-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 41px;
+
+    @media all and (max-width: 768px) {
+      text-align: center;
+      display: block;
+    }
+
+    .logo {
+      img {
+        @media all and (max-width: 320px) {
+          width: 150px;
+        }
+      }
+    }
+  }
+
+  .tel {
+    padding-top: 25px;
+    font-weight: 700;
+
+    @media all and (max-width: 320px) {
+      padding-top: 15px;
+    }
+
+    a {
+      color: #ffffff;
+      font-size: 30px;
+      text-decoration: none;
+
+      @media all and (max-width: 320px) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .city {
+    font-size: 24px;
+    color: #ffffff;
+
+    @media all and (max-width: 320px) {
+      font-size: 12px;
+    }
+  }
+  .btn {
+    display: block;
+    text-align: center;
+    margin: 44px auto;
+    background-color: #f5af1f;
+    color: #ffffff;
+    border-radius: 60px;
+    padding: 20px 65px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+
+    @media all and (max-width: 320px) {
+      padding: 10px 35px;
+    }
+  }
+}
+
+
